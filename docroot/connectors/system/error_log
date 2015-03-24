@@ -1,0 +1,90 @@
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 13:06:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 13:06:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 13:06:30 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 13:06:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 13:06:30 UTC] PHP Stack trace:
+[04-Feb-2015 13:06:30 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:0
+[04-Feb-2015 13:06:30 UTC] PHP   2. require_once() /home/sta/public_html/styleguide/docroot/connectors/system/phpthumb.php:7
+[04-Feb-2015 13:06:30 UTC] PHP   3. modX->__construct() /home/sta/public_html/styleguide/docroot/connectors/index.php:38
+[04-Feb-2015 13:06:30 UTC] PHP   4. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 13:06:30 UTC] PHP   5. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 13:06:30 UTC] PHP   6. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654

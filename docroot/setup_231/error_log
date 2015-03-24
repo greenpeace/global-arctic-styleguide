@@ -1,0 +1,747 @@
+[04-Feb-2015 12:48:21 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:21 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:21 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:21 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:21 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:48:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:32 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:32 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:32 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:32 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:32 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:32 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:32 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:32 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:32 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:32 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:32 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:32 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:32 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:32 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:32 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:32 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:32 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:32 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:32 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:32 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:32 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:48:32 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:32 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:32 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:32 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:32 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:32 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:32 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:32 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:35 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:35 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:35 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:35 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:35 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:48:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:39 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:39 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:39 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:39 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:39 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:39 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:39 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:39 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:39 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:39 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:39 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:39 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:39 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:39 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:39 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:39 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:39 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:39 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:39 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:39 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:39 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:48:39 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:39 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:39 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:39 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:39 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:39 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:39 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:39 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:41 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:41 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:41 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:41 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:41 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:41 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:41 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:41 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:41 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:41 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:41 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:48:41 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:41 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:41 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:41 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:41 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:41 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:41 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:41 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:48:41 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:48:41 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:48:41 UTC] PHP Stack trace:
+[04-Feb-2015 12:48:41 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:48:41 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:48:41 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:48:41 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:48:41 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:48:41 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:48:41 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:51:53 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:51:53 UTC] PHP Stack trace:
+[04-Feb-2015 12:51:53 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:51:53 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:51:53 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:51:53 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:51:53 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:51:53 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:51:53 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:51:53 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:51:53 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:51:53 UTC] PHP Stack trace:
+[04-Feb-2015 12:51:53 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:51:53 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:51:53 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:51:53 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:51:53 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:51:53 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:51:53 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:51:53 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:51:53 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:51:53 UTC] PHP Stack trace:
+[04-Feb-2015 12:51:53 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:51:53 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:51:53 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:51:53 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:51:53 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:51:53 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:51:53 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:09 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:52:09 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:09 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:09 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:52:09 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:52:09 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:52:09 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:52:09 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:52:09 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:52:09 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:52:09 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:52:09 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:52:09 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:52:09 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:09 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:09 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:52:09 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:52:09 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:52:09 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:52:09 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:52:09 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:52:09 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:52:09 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:52:09 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:52:09 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:52:09 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:09 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:09 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:52:09 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:52:09 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:52:09 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:52:09 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:52:09 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:52:09 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:52:09 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:52:09 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:52:09 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:52:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:52:09 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:09 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:09 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:52:09 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:52:09 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:52:09 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:52:09 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:52:09 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:52:09 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:52:09 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:52:09 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:52:09 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:52:16 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:52:16 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:16 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:16 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:16 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:16 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:16 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:16 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:16 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:16 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:52:16 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:52:16 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:16 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:16 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:16 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:16 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:16 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:16 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:16 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:16 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:52:16 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:52:16 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:16 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:16 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:16 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:16 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:16 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:16 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:16 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:34 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:52:34 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:34 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:34 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:34 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:34 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:34 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:34 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:34 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:34 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:52:34 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:52:34 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:34 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:34 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:34 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:34 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:34 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:34 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:34 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:52:34 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:52:34 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:52:34 UTC] PHP Stack trace:
+[04-Feb-2015 12:52:34 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:52:34 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:52:34 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:52:34 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:52:34 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:52:34 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:52:34 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:53:45 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:53:45 UTC] PHP Stack trace:
+[04-Feb-2015 12:53:45 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:53:45 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:53:45 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:53:45 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:53:45 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:53:45 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:53:45 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:53:45 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:53:45 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:53:45 UTC] PHP Stack trace:
+[04-Feb-2015 12:53:45 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:53:45 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:53:45 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:53:45 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:53:45 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:53:45 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:53:45 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:53:45 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:53:45 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:53:45 UTC] PHP Stack trace:
+[04-Feb-2015 12:53:45 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:53:45 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:53:45 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:53:45 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:53:45 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:53:45 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:53:45 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:06 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:54:06 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:06 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:06 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:06 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:06 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:06 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:06 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:06 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:06 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:54:06 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:54:06 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:06 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:06 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:06 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:06 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:06 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:06 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:06 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:06 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:54:06 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:54:06 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:06 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:06 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:06 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:06 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:06 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:06 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:06 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:17 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:54:17 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:17 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:17 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:17 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:17 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:17 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:17 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:17 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:17 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:54:17 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:54:17 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:17 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:17 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:17 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:17 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:17 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:17 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:17 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:17 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:54:17 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:54:17 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:17 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:17 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:54:17 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:54:17 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:54:17 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:54:17 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:54:17 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:54:52 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:54:52 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:52 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:52 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:54:52 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:54:52 UTC] PHP   4. modInstall->test() /home/sta/public_html/styleguide/docroot/setup/controllers/summary.php:16
+[04-Feb-2015 12:54:52 UTC] PHP   5. modInstallTest->run() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:235
+[04-Feb-2015 12:54:52 UTC] PHP   6. modInstallTest->_checkDatabase() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:42
+[04-Feb-2015 12:54:52 UTC] PHP   7. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:305
+[04-Feb-2015 12:54:52 UTC] PHP   8. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:54:52 UTC] PHP   9. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:54:52 UTC] PHP  10. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:54:52 UTC] PHP  11. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:54:52 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:54:52 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:52 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:52 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:54:52 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:54:52 UTC] PHP   4. modInstall->test() /home/sta/public_html/styleguide/docroot/setup/controllers/summary.php:16
+[04-Feb-2015 12:54:52 UTC] PHP   5. modInstallTest->run() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:235
+[04-Feb-2015 12:54:52 UTC] PHP   6. modInstallTest->_checkDatabase() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:42
+[04-Feb-2015 12:54:52 UTC] PHP   7. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:305
+[04-Feb-2015 12:54:52 UTC] PHP   8. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:54:52 UTC] PHP   9. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:54:52 UTC] PHP  10. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:54:52 UTC] PHP  11. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:54:52 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:54:52 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:52 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:52 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:54:52 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:54:52 UTC] PHP   4. modInstall->test() /home/sta/public_html/styleguide/docroot/setup/controllers/summary.php:16
+[04-Feb-2015 12:54:52 UTC] PHP   5. modInstallTest->run() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:235
+[04-Feb-2015 12:54:52 UTC] PHP   6. modInstallTest->_checkDatabase() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:42
+[04-Feb-2015 12:54:52 UTC] PHP   7. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:305
+[04-Feb-2015 12:54:52 UTC] PHP   8. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:54:52 UTC] PHP   9. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:54:52 UTC] PHP  10. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:54:52 UTC] PHP  11. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:54:52 UTC] PHP  12. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:54:52 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:54:52 UTC] PHP Stack trace:
+[04-Feb-2015 12:54:52 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:54:52 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:54:52 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:54:52 UTC] PHP   4. modInstall->test() /home/sta/public_html/styleguide/docroot/setup/controllers/summary.php:16
+[04-Feb-2015 12:54:52 UTC] PHP   5. modInstallTest->run() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:235
+[04-Feb-2015 12:54:52 UTC] PHP   6. modInstallTest->_checkDatabase() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:42
+[04-Feb-2015 12:54:52 UTC] PHP   7. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/test/modinstalltest.class.php:305
+[04-Feb-2015 12:54:52 UTC] PHP   8. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:54:52 UTC] PHP   9. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:54:52 UTC] PHP  10. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:54:52 UTC] PHP  11. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:54:52 UTC] PHP  12. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:56:21 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:56:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:56:21 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:56:21 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:56:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:56:21 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:56:21 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:56:21 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:21 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:21 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:21 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:21 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:21 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:21 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:21 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:56:25 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:56:25 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:25 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:25 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:25 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:25 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:25 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:25 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:25 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:56:25 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:56:25 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:56:25 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:25 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:25 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:25 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:25 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:25 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:25 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:25 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:56:25 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:56:25 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:56:25 UTC] PHP Stack trace:
+[04-Feb-2015 12:56:25 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:56:25 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:56:25 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:56:25 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:56:25 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:56:25 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:56:25 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:35 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:35 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:35 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:35 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:35 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:58:35 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:35 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:35 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:35 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:35 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:35 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:35 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:35 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:46 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:46 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:46 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:46 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:46 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:46 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:46 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:46 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:46 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:46 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:46 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:46 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:46 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:46 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:46 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:46 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:46 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:46 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:46 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:46 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:46 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:58:46 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:46 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:46 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:46 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:46 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:46 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:46 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:46 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:54 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:54 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:54 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:54 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:54 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:54 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:54 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:54 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:54 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:54 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:54 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:58:54 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:54 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:54 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:54 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:54 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:54 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:54 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:54 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:54 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:58:54 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:58:54 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:54 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:54 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:58:54 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:58:54 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:58:54 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:58:54 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:58:54 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:58:56 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:58:56 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:56 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:56 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:56 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:56 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:56 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:56 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:56 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:56 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:56 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:58:56 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:58:56 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:58:56 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:56 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:56 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:56 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:56 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:56 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:56 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:56 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:56 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:56 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:58:56 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:58:56 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:58:56 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:56 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:56 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:56 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:56 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:56 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:56 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:56 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:56 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:56 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:58:56 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:58:56 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:58:56 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:58:56 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:56 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:56 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:56 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:56 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:56 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:56 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:56 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:56 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:56 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:58:56 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:58:56 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:58:59 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:58:59 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:59 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:59 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:59 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:59 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:59 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:59 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:59 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:59 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:59 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:58:59 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:58:59 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:58:59 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:59 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:59 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:59 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:59 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:59 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:59 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:59 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:59 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:59 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:58:59 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:58:59 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:58:59 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:59 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:59 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:59 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:59 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:59 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:59 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:59 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:59 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:59 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:58:59 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:58:59 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:58:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:58:59 UTC] PHP Stack trace:
+[04-Feb-2015 12:58:59 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:58:59 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:58:59 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:58:59 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:58:59 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:58:59 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:58:59 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:58:59 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:58:59 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:58:59 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:58:59 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:59:00 UTC] PHP Warning:  include(/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:59:00 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:00 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:00 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:59:00 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:59:00 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:59:00 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:59:00 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:59:00 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:59:00 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:59:00 UTC] PHP Warning:  include(): Failed opening '/home/sta/public_html/styleguide/docroot/core/model/smarty/sysplugins/smarty_internal_data.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 791
+[04-Feb-2015 12:59:00 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:00 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:00 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:59:00 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:59:00 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:59:00 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:59:00 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:59:00 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:59:00 UTC] PHP   8. smartyAutoload() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:85
+[04-Feb-2015 12:59:00 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /home/sta/public_html/styleguide/docroot/core/model/smarty/Smarty.class.php on line 85
+[04-Feb-2015 12:59:00 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:00 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:00 UTC] PHP   2. modInstall->getService() /home/sta/public_html/styleguide/docroot/setup/index.php:108
+[04-Feb-2015 12:59:00 UTC] PHP   3. modInstallRequest->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:107
+[04-Feb-2015 12:59:00 UTC] PHP   4. modInstallRequest->loadParser() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:53
+[04-Feb-2015 12:59:00 UTC] PHP   5. modInstall->loadClass() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:219
+[04-Feb-2015 12:59:00 UTC] PHP   6. require_once() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:91
+[04-Feb-2015 12:59:00 UTC] PHP   7. include_once() /home/sta/public_html/styleguide/docroot/setup/includes/parser/modinstallsmarty.class.php:26
+[04-Feb-2015 12:59:03 UTC] PHP Warning:  include_once(/om/mysql/xpdodriver.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:59:03 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:03 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:03 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:59:03 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:59:03 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:59:03 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:59:03 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:59:03 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:59:03 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:59:03 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:59:03 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:59:03 UTC] PHP Warning:  include_once(): Failed opening '/om/mysql/xpdodriver.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php on line 1864
+[04-Feb-2015 12:59:03 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:03 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:03 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:59:03 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:59:03 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:59:03 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:59:03 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:59:03 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:59:03 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:59:03 UTC] PHP   9. xPDO->__construct() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:427
+[04-Feb-2015 12:59:03 UTC] PHP  10. xPDO->getDriver() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:341
+[04-Feb-2015 12:59:03 UTC] PHP Warning:  require_once(/modaccess.class.php): failed to open stream: No such file or directory in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:59:03 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:03 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:03 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:59:03 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:59:03 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:59:03 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:59:03 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:59:03 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:59:03 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:59:03 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:59:03 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:59:03 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
+[04-Feb-2015 12:59:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/modaccess.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sta/public_html/styleguide/docroot/core/model/modx/mysql/modaccess.class.php on line 6
+[04-Feb-2015 12:59:03 UTC] PHP Stack trace:
+[04-Feb-2015 12:59:03 UTC] PHP   1. {main}() /home/sta/public_html/styleguide/docroot/setup/index.php:0
+[04-Feb-2015 12:59:03 UTC] PHP   2. modInstallRequest->handle() /home/sta/public_html/styleguide/docroot/setup/index.php:109
+[04-Feb-2015 12:59:03 UTC] PHP   3. include() /home/sta/public_html/styleguide/docroot/setup/includes/request/modinstallrequest.class.php:85
+[04-Feb-2015 12:59:03 UTC] PHP   4. modInstallRunner->run() /home/sta/public_html/styleguide/docroot/setup/controllers/install.php:19
+[04-Feb-2015 12:59:03 UTC] PHP   5. modInstallRunnerWeb->execute() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunner.class.php:36
+[04-Feb-2015 12:59:03 UTC] PHP   6. modInstall->getConnection() /home/sta/public_html/styleguide/docroot/setup/includes/runner/modinstallrunnerweb.class.php:26
+[04-Feb-2015 12:59:03 UTC] PHP   7. modInstall->_modx() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:161
+[04-Feb-2015 12:59:03 UTC] PHP   8. modX->__construct() /home/sta/public_html/styleguide/docroot/setup/includes/modinstall.class.php:486
+[04-Feb-2015 12:59:03 UTC] PHP   9. xPDO->loadClass() /home/sta/public_html/styleguide/docroot/core/model/modx/modx.class.php:435
+[04-Feb-2015 12:59:03 UTC] PHP  10. xPDO->_loadClass() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:628
+[04-Feb-2015 12:59:03 UTC] PHP  11. include_once() /home/sta/public_html/styleguide/docroot/core/xpdo/xpdo.class.php:654
