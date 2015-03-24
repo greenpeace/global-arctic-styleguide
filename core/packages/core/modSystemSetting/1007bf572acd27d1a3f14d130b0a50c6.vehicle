@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3f8e31d57a4b4ee1c6cf16f32e04961a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1007bf572acd27d1a3f14d130b0a50c6',
+  'native_key' => 'server_protocol',
+  'object' => '{"key":"server_protocol","value":"http","xtype":"textfield","namespace":"core","area":"system","editedon":null}',
+);

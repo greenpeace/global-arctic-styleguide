@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '10e7f4c176ba243fd2038b8e7e4d9277',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '8eb6aead74176f9ed3b4bb2a4a588f5e',
+  'native_key' => 'webpwdreminder_message',
+  'object' => '{"key":"webpwdreminder_message","value":"<p>Hello [[+uid]],<\\/p>\\n\\n    <p>To activate your new password click the following link:<\\/p>\\n\\n    <p>[[+surl]]<\\/p>\\n\\n    <p>If successful you can use the following password to login:<\\/p>\\n\\n    <p><strong>Password:<\\/strong> [[+pwd]]<\\/p>\\n\\n    <p>If you did not request this email then please ignore it.<\\/p>\\n\\n    <p>Regards,<br \\/>\\n    Site Administrator<\\/p>","xtype":"textarea","namespace":"core","area":"authentication","editedon":null}',
+);

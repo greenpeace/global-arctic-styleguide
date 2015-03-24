@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9fa1992cf4181295ccb69f331ca8f885',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a1786e0ad35d452cbb1f701ae91bbb2a',
+  'native_key' => 'friendly_alias_max_length',
+  'object' => '{"key":"friendly_alias_max_length","value":"0","xtype":"textfield","namespace":"core","area":"furls","editedon":null}',
+);

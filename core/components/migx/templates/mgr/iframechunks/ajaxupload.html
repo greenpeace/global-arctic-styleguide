@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Ajax - Upload</title>
+<meta charset="utf-8" />
+<base href="[[++site_url]]" />
+
+
+<link rel="stylesheet" type="text/css" href="assets/components/migx/imageupload/AjaxImageUpload.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="assets/components/migx/imageupload/fileuploader.js" type="text/javascript"></script>
+[[+scriptSettings]]
+<script src="assets/components/migx/imageupload/AjaxImageUpload.js" type="text/javascript"></script>
+</head>
+<body>
+<h2>Ajax-Upload</h2>
+
+[[migxImageUpload? 
+&ajaxUrl=`[[+migx_config.connectorUrl]]?HTTP_MODAUTH=[[+request.HTTP_MODAUTH]]&store_params=[[+request.store_params]]&tv_name=[[+request.tv_name]]&object_id=[[+request.object_id]]&co_id=[[+request.co_id]]&resource_id=[[+request.resource_id]]&action=[[+request.action]]&processaction=imageupload&configs=[[+request.configs]]` 
+&uid=`uniqueid` 
+&language=`english` 
+&tv_name=`[[+request.tv_name]]`
+&resource_id=`[[+request.resource_id]]`
+]]
+
+</body>
+</html>

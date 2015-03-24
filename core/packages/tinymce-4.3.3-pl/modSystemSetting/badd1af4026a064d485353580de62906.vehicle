@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '487c47c8be110026c7ba55946d2fcf22',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'badd1af4026a064d485353580de62906',
+  'native_key' => 'tiny.remove_redundant_brs',
+  'object' => '{"key":"tiny.remove_redundant_brs","value":true,"xtype":"combo-boolean","namespace":"tinymce","area":"cleanup-output","editedon":null}',
+);

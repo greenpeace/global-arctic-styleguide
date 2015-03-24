@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8b62eb0aea71bbc5589d5af64f8f255f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '06096294c8a8a1805f386bc6b04b84f5',
+  'native_key' => 'manager_lang_attribute',
+  'object' => '{"key":"manager_lang_attribute","value":"en","xtype":"textfield","namespace":"core","area":"language","editedon":null}',
+);

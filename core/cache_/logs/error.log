@@ -1,0 +1,19 @@
+[2015-02-04 10:46:07] (ERROR @ /styleguide/connectors/index.php) Could not get table class for class: modAccess
+[2015-02-04 10:46:07] (ERROR @ /styleguide/connectors/index.php) Could not get table name for class: modAccess
+[2015-02-04 10:46:07] (ERROR @ /styleguide/connectors/index.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 2' at line 1
+)
+
+[2015-02-04 13:28:42] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/manager/controllers/default/welcome
+[2015-02-04 13:29:50] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/manager/controllers/default/welcome
+[2015-02-04 13:30:53] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/manager/controllers/default/welcome
+[2015-02-04 13:31:13] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login
+[2015-02-04 13:33:21] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login
+[2015-02-04 13:33:22] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login
+[2015-02-04 13:33:22] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login
+[2015-02-04 13:33:22] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login
+[2015-02-04 13:33:23] (ERROR @ /styleguide/ueh764jku/index.php) Could not find action file at: /home/sta/public_html/styleguide/docroot/ueh764jku/controllers/default/security/login

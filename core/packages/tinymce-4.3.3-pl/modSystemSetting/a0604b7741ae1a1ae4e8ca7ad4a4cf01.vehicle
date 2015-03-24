@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '764bdbc75557f8c87913fb15a11fa8e5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a0604b7741ae1a1ae4e8ca7ad4a4cf01',
+  'native_key' => 'tiny.theme_advanced_font_sizes',
+  'object' => '{"key":"tiny.theme_advanced_font_sizes","value":"80%,90%,100%,120%,140%,160%,180%,220%,260%,320%,400%,500%,700%","xtype":"textfield","namespace":"tinymce","area":"advanced-theme","editedon":null}',
+);

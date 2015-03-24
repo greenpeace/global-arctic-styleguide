@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c44e51d12445898a44a76f823d5f2770',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1e42156d778f00a8249f2b5d5d78fd50',
+  'native_key' => 'tiny.convert_newlines_to_brs',
+  'object' => '{"key":"tiny.convert_newlines_to_brs","value":false,"xtype":"combo-boolean","namespace":"tinymce","area":"cleanup-output","editedon":null}',
+);

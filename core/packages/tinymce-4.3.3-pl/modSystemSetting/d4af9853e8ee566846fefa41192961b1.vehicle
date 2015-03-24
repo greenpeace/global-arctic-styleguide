@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3a104fabd1c12ca9c263d82ee574a199',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd4af9853e8ee566846fefa41192961b1',
+  'native_key' => 'tiny.convert_fonts_to_spans',
+  'object' => '{"key":"tiny.convert_fonts_to_spans","value":true,"xtype":"combo-boolean","namespace":"tinymce","area":"cleanup-output","editedon":null}',
+);

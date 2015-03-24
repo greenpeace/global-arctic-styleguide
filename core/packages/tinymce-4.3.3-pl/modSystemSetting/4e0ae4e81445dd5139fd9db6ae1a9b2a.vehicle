@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6adbf2661545e23f0dd6d3e3af47b4a2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4e0ae4e81445dd5139fd9db6ae1a9b2a',
+  'native_key' => 'tiny.indentation',
+  'object' => '{"key":"tiny.indentation","value":"30px","xtype":"textfield","namespace":"tinymce","area":"cleanup-output","editedon":null}',
+);

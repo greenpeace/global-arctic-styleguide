@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '17636c8f94014b3b26a8189ca2d968a5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5d4bb33fcdf8e0d2da74b5f1de4e8fdb',
+  'native_key' => 'feed_modx_news_enabled',
+  'object' => '{"key":"feed_modx_news_enabled","value":"1","xtype":"combo-boolean","namespace":"core","area":"system","editedon":null}',
+);

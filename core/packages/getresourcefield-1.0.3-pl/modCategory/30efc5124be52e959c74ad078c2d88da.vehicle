@@ -1,0 +1,60 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '219292d22124b18a9c1f06b7b7fabea5' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":43,"name":"getResourceField","description":"Grab a value from a resource field or a TV","editor_type":0,"category":30,"cache_type":0,"snippet":"\\/**\\n *\\n * getResourceField\\n *\\n * A snippet to grab a value from a resource field or a TV\\n *\\n * @ author Paul Merchant\\n * @ author Shaun McCormick\\n * @ copyright 2011 Paul Merchant\\n * @ version 1.0.3 - August 8, 2011\\n * @ MIT License\\n *\\n * OPTIONS\\n * id - The resource ID\\n * field - (Opt) The field or template variable name, defaults to pagetitle\\n * isTV - (Opt) Set as true to return a raw template variable\\n * processTV - (Opt) Set as true to return a rendered template variable\\n * default - (Opt) The value returned if no field is found\\n *\\n * Exmaple1: [[getResourceField? &id=`123`]]\\n * Example2: [[getResourceField? &id=`[[UltimateParent?]]` &field=`myTV` &isTV=`1`]]\\n * Example3: [[getResourceField? &id=`[[*parent]]` &field=`myTV` &processTV=`1`]]\\n *\\n**\\/\\n\\n\\/\\/ set defaults\\n$id = $modx->getOption(\'id\',$scriptProperties,$modx->resource->get(\'id\'));\\n$field = $modx->getOption(\'field\',$scriptProperties,\'pagetitle\');\\n$isTV = $modx->getOption(\'isTV\',$scriptProperties,false);\\n$processTV = $modx->getOption(\'processTV\',$scriptProperties,false);\\n$output = $modx->getOption(\'default\',$scriptProperties,\'\');\\n\\nif ($isTV || $processTV) {\\n    \\/\\/ get the tv object\\n    $tv = $modx->getObject(\'modTemplateVar\',array(\'name\'=>$field));\\n    if (empty($tv)) return $output;\\n    if ($processTV) {\\n        \\/\\/ get rendered tv value\\n        $tvValue = $tv->renderOutput($id);\\n    } else {\\n        \\/\\/ get raw tv value\\n        $tvValue = $tv->getValue($id);\\n    }\\n    if ($tvValue !== null) {\\n        $output = $tvValue;\\n    }\\n} else {\\n    if ($id == $modx->resource->get(\'id\')) {\\n        \\/\\/ use the current resource\\n        $resource =& $modx->resource;\\n        \\/\\/ current resource can infinite loop if pulling content field into itself\\n        if ($field == \'content\') {\\n            return $output;\\n        }\\n    } else {\\n        \\/\\/ grab only the columns we need\\n        $criteria = $modx->newQuery(\'modResource\');\\n        $criteria->select($modx->getSelectColumns(\'modResource\',\'modResource\',\'\',array(\'id\',$field)));\\n        $criteria->where(array(\'id\'=>$id,));\\n        $resource = $modx->getObject(\'modResource\',$criteria);\\n        if (empty($resource)) return $output;\\n    }\\n    $fieldValue = $resource->get($field);\\n    if ($fieldValue !== null) {\\n        $output = $fieldValue;\\n    }\\n}\\n\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":""}',
+        'guid' => '43a30e132e38c8c0efc1f3d07a047b3d',
+        'native_key' => 43,
+        'signature' => '63de52c3e827693353aebe54bece0ff4',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'getresourcefield',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9b2a52e0cc8cd1c53e4eef5f01bb5e20',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '30efc5124be52e959c74ad078c2d88da',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"getResourceField"}',
+);

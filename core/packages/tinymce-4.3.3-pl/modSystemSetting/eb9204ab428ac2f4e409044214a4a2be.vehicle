@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tinymce',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fbfd003ecafa18f5eee87d519eeba409',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'eb9204ab428ac2f4e409044214a4a2be',
+  'native_key' => 'tiny.custom_buttons3',
+  'object' => '{"key":"tiny.custom_buttons3","value":"","xtype":"textfield","namespace":"tinymce","area":"custom-buttons","editedon":null}',
+);

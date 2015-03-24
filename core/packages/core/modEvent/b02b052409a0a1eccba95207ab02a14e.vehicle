@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '862e5ca2735d049e10051aaf11567dab',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'b02b052409a0a1eccba95207ab02a14e',
+  'native_key' => 'OnPluginFormSave',
+  'object' => '{"name":"OnPluginFormSave","service":1,"groupname":"Plugins"}',
+);

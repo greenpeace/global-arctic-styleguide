@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model package="migx" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" phpdoc-package="" phpdoc-subpackage="" version="1.1">
+
+    <object class="migxConfig" table="migx_configs" extends="xPDOSimpleObject">
+    	<field key="name" dbtype="varchar" phptype="string" precision="100" null="false" default="" />
+        <field key="formtabs" dbtype="text" phptype="string" null="false" default="" />
+        <field key="contextmenus" dbtype="text" phptype="string" null="false" default="" />
+        <field key="actionbuttons" dbtype="text" phptype="string" null="false" default="" />
+        <field key="columnbuttons" dbtype="text" phptype="string" null="false" default="" />
+        <field key="filters" dbtype="text" phptype="string" null="false" default="" />
+        <field key="extended" dbtype="text" phptype="json" null="false" default="" />
+        <field key="columns" dbtype="text" phptype="string" null="false" default="" />
+		<field key="createdby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />	
+    	<field key="createdon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="editedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+		<field key="editedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deleted" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+		<field key="deletedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deletedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="published" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />        
+		<field key="publishedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="publishedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />        
+
+        <aggregate alias="ConfigElements" class="migxConfigElement" local="id" foreign="config_id" cardinality="many" owner="local" /> 
+        <composite alias="Formtabs" class="migxFormtab" local="id" foreign="config_id" cardinality="many" owner="local" /> 
+    </object>
+    
+    <object class="migxFormtab" table="migx_formtabs" extends="xPDOSimpleObject">
+        <field key="config_id" dbtype="int" precision="10" phptype="integer" null="false" default="0" index="index" />
+        <field key="caption" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="pos" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="print_before_tabs" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+        <field key="extended" dbtype="text" phptype="json" null="false" default="" />
+        <aggregate alias="Config" class="migxConfig" local="config_id" foreign="id" cardinality="one" owner="foreign" /> 
+        <composite alias="Fields" class="migxFormtabField" local="id" foreign="formtab_id" cardinality="many" owner="local" /> 
+ 
+    </object> 
+    
+    <object class="migxFormtabField" table="migx_formtab_fields" extends="xPDOSimpleObject">
+        <field key="config_id" dbtype="int" precision="10" phptype="integer" null="false" default="0" index="index" />
+        <field key="formtab_id" dbtype="int" precision="10" phptype="integer" null="false" default="0" index="index" />
+        <field key="field" dbtype="varchar" phptype="string" precision="255" null="false" default="" index="index" />
+        <field key="caption" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="description" dbtype="text" phptype="string" null="false" default="" />
+        <field key="pos" dbtype="int" precision="10" phptype="integer" null="false" default="0" index="index" />
+        <field key="description_is_code" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+        <field key="inputTV" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="inputTVtype" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="validation" dbtype="text" phptype="string" null="false" default="" />
+        <field key="configs" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="restrictive_condition" dbtype="text" phptype="string" null="false" default="" />
+        <field key="display" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="sourceFrom" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="sources" dbtype="varchar" phptype="string" precision="255" null="false" default="" />
+        <field key="inputOptionValues" dbtype="text" phptype="string" null="false" default="" />
+        <field key="default" dbtype="text" phptype="string" null="false" default="" />
+        <field key="extended" dbtype="text" phptype="json" null="false" default="" />
+        
+        <aggregate alias="Config" class="migxConfig" local="config_id" foreign="id" cardinality="one" owner="foreign" /> 
+        <aggregate alias="Formtab" class="migxFormtab" local="formtab_id" foreign="id" cardinality="one" owner="foreign" /> 
+ 
+    </object>         
+    
+
+    <object class="migxConfigElement" table="migx_config_elements" extends="xPDOSimpleObject">
+        <field key="config_id" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="element_id" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="rank" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        
+        <field key="createdby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />	
+    	<field key="createdon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="editedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+		<field key="editedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deleted" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+		<field key="deletedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deletedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="published" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />        
+		<field key="publishedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="publishedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        
+        <aggregate alias="Config" class="migxConfig" local="config_id" foreign="id" cardinality="one" owner="foreign" /> 
+        <aggregate alias="Element" class="migxElement" local="element_id" foreign="id" cardinality="one" owner="foreign" />         
+    </object>
+
+    <object class="migxElement" table="migx_elements" extends="xPDOSimpleObject">
+        <field key="type" dbtype="varchar" phptype="string" precision="100" null="false" default="" />
+        <field key="content" dbtype="text" phptype="string" null="false" default="" />
+	
+        <field key="createdby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />	
+    	<field key="createdon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="editedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+		<field key="editedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deleted" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />
+		<field key="deletedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="deletedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" />
+        <field key="published" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="false" default="0" />        
+		<field key="publishedon" dbtype="datetime" phptype="datetime" null="false" />
+		<field key="publishedby" dbtype="int" precision="10" phptype="integer" null="false" default="0" /> 
+        
+        <aggregate alias="Configs" class="migxConfigElement" local="id" foreign="element_id" cardinality="many" owner="local" />        
+  
+    </object>
+</model>
