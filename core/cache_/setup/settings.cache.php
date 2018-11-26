@@ -20,7 +20,7 @@
   'database_charset' => 'latin1',
   'database_connection_charset' => 'latin1',
   'database_dsn' => 'mysql:host=localhost;dbname=sta_styleguide;charset=latin1',
-  'database_password' => '***REMOVED***',
+  'database_password' => '*** REMOVED ***',
   'database_server' => 'localhost',
   'database_type' => 'mysql',
   'database_user' => 'sta_styleguide',

@@ -1,7 +1,7 @@
 <?php
 $dbhost = 'localhost';
 $dbuser = 'sta_styleguide';
-$dbpass = '***REMOVED***';
+$dbpass = '*** REMOVED***';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {

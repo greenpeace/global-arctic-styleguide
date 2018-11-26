@@ -5,7 +5,7 @@
 $database_type = 'mysql';
 $database_server = 'localhost';
 $database_user = 'sta_styleguide';
-$database_password = '***REMOVED***';
+$database_password = '*** REMOVED ***';
 $database_connection_charset = 'latin1';
 $dbase = 'sta_styleguide';
 $table_prefix = 'modx_';
